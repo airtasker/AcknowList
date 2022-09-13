@@ -21,8 +21,11 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
+#if canImport(SwiftUI)
 import SwiftUI
+#endif
 
+@available(iOS 13.0.0, macOS 10.15.0, watchOS 6.0.0, tvOS 13.0.0, *)
 extension Acknow: Identifiable {
     public var id: String {
         get {
